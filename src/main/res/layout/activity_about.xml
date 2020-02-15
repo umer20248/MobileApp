@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="-80dp"
+        android:text="Your Feedback "
+        android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+        android:textSize="24dp" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_below="@+id/textview"
+        android:hint="Enter your Name"
+        android:padding="10dp"
+        android:id="@+id/edit1"
+        android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_below="@+id/edit1"
+        android:hint="Enter your Age"
+        android:padding="10dp"
+        android:id="@+id/edit2"
+        android:textColor="@color/common_google_signin_btn_text_dark_pressed"
+        android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</RelativeLayout>

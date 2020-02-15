@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1035193020116",
+    "firebase_url": "https://userregistrationapp-c5401.firebaseio.com",
+    "project_id": "userregistrationapp-c5401",
+    "storage_bucket": "userregistrationapp-c5401.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1035193020116:android:887a861b2c3327660dd541",
+        "android_client_info": {
+          "package_name": "com.example.userregistrationapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1035193020116-nnvcr0r4qftik8sm8jptsupgm2nc1en1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.userregistrationapp",
+            "certificate_hash": "41a2aa917f63feb86a7cd731a99c01fbb7259396"
+          }
+        },
+        {
+          "client_id": "1035193020116-qk6i7ok198jpumknrb73imvsebousn1i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9G-W4j_9jlOyDLsJ3kr-tOTlauztdf58"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1035193020116-qk6i7ok198jpumknrb73imvsebousn1i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
